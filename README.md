@@ -2,6 +2,10 @@
 ## *k*-Means Aperture Optimization for Kepler K2 data
 ---
 
+![Five optimized apertures for the Titan time series.](data/OptimizedAperturesLabeled.jpg)
+
+---
+
 k-Means Aperture Optization (`kmao`) is a technique for correcting aperture photometry in the presence of target motion, saturation, and/or strongly varying backgrounds.
 
 `kmao` optimizes a small *set* of apertures. These apertures each apply to a unique sub-set of the target images that have similar properties. The assigment of images to these sets is done via [*k*-means clustering](https://en.wikipedia.org/wiki/K-means_clustering) on the target pixel files.
