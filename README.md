@@ -5,6 +5,7 @@
 ![Five optimized apertures for the Titan time series.](data/OptimizedAperturesLabeled.jpg)
 
 ---
+[![DOI](https://zenodo.org/badge/190502416.svg)](https://zenodo.org/badge/latestdoi/190502416)
 
 k-Means Aperture Optization (`kmao`) is a technique for correcting aperture photometry in the presence of target motion, saturation, and/or strongly varying backgrounds.
 
@@ -41,5 +42,4 @@ Parker, A. Hörst, S., Ryan, E., & Howett, C. (PASP, submitted). "k-Means Apertu
 
 * Luger, R., Kruse, E., Foreman-Mackey, D., Agol, E., & Saunders, N. "An Update to the EVEREST K2 Pipeline: Short Cadence, Saturated Stars, and Kepler-like Photometry Down to Kp = 15" AJ 156, 99-120.
 * Parker, A. Hörst, S., Ryan, E., & Howett, C. (PASP, submitted). "k-Means Aperture Optimization Applied to Kepler K2 Time Series Photometry of Titan."
-
 
