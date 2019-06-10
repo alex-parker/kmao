@@ -103,8 +103,8 @@ def reduce_apertures(data, mask0, aperture_id, correct=True, thresh=0.99, grow=1
 	for z in np.unique(aperture_id):
 		inds = np.where(aperture_id==z)
 
-		delta = data.copy()
-		delta_ratio = data.copy() ### left redundant in case a sky ratio is needed
+		delta = data[inds].copy()
+		delta_ratio = data[inds].copy() ### left redundant in case a sky ratio is needed
 		max_delta = np.nanmean(delta, axis=0)
 		max_delta_ratio = np.nanmean(delta_ratio, axis=0)
 		max_delta[max_delta<=0] = 0
